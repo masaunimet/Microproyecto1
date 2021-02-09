@@ -125,3 +125,60 @@
     height: 80px;
     cursor: pointer;
 }   
+
+.experience{
+
+    width: 100%;
+    height: 600px;
+    background-color: rgb(3, 2, 49);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+}
+
+.experience .experiencia{
+
+    width: 85%;
+    height: 125px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:5px solid white;
+    border-radius: 20px;
+    display:flex;
+}
+
+.experience .experiencia .imagen_experience{
+
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    object-fit: contain;
+}
+
+.experience .experiencia .info_experience{
+    width: 80%;
+    height: 80%;
+    margin:10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.experience .experiencia .info_experience .arriba{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+}
+
+.experience .experiencia .info_experience .abajo{
+
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color:white;
+}
