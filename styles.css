@@ -217,8 +217,9 @@
 
     width: 20%;
     height: 90%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.301);
     margin :10px;
+    border-radius: 5%;
 }
 
 .TonyPage2 .AboutMe .foto{
@@ -275,4 +276,38 @@
     width: 100%;
     height: 150px;
     font-size: 18px;
+}
+
+.TonyPage2 .Skills .enunciado_puntos{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.TonyPage2 .Skills .puntuacion{
+
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-size: 80px;
+    align-items: center;
+}
+
+.TonyPage2 .Skills .opciones{
+
+    width: 100%;
+    height: 100px;
+}
+
+.TonyPage2 .Skills .parte{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
