@@ -182,3 +182,97 @@
     align-items: flex-end;
     color:white;
 }
+
+.TonyPage1{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.TonyPage2{
+
+    width: 100%;
+    height: 450px;
+    display: flex;
+    background-color: rgb(224, 240, 255);
+    justify-content: center;
+    align-items: center;
+}
+
+.TonyPage2 .AboutMe{
+
+    width: 75%;
+    height: 90%;
+    margin :10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.TonyPage2 .Skills{
+
+    width: 20%;
+    height: 90%;
+    background-color: blue;
+    margin :10px;
+}
+
+.TonyPage2 .AboutMe .foto{
+
+    width: 25%;
+    height: 60%;
+    border :5px solid black;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.TonyPage2 .AboutMe .infopersonal{
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.TonyPage2 .AboutMe .infopersonal .nombre{
+
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.TonyPage2 .AboutMe .infopersonal .enunciado_obj{
+
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.TonyPage2 .AboutMe .infopersonal .objetivos_Box{
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.TonyPage2 .AboutMe .infopersonal .motivaciones_gustos_etc_enun{
+
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.TonyPage2 .AboutMe .infopersonal .motivaciones_gustos_etc{
+
+    width: 100%;
+    height: 150px;
+    font-size: 18px;
+}
