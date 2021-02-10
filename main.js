@@ -96,3 +96,19 @@ atras.addEventListener('click',()=>{
     titulo_hero.innerHTML = imagenes[contador].titulo;
     descripcion_hero.innerHTML = imagenes[contador].descripcion;
 })
+
+function validar(correo){
+
+    let expReg= /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    let esvalido =expReg.test(correo);
+
+    if(esvalido){
+
+        alert("se ha enviado el correo");
+    }
+
+    else{
+
+        alert("rellene bien los campos");
+    }
+}
