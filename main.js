@@ -38,7 +38,6 @@ let btn_destreza = document.getElementById('btn_destreza');
 let btn_suerte = document.getElementById('btn_suerte');
 let btn_agilidad = document.getElementById('btn_agilidad');
 
-
 btn_inteligencia.addEventListener('click',()=>{
 
     puntuacion.innerHTML = estadisticas.Inteligencia;
